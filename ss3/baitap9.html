@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fomr đăng kí</title>
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <td>Họ và Tên:</td>
+          <td><input type="text" name="ht" /><br /></td>
+        </tr>
+        <tr>
+          <td>Ngày sinh:</td>
+          <td><input type="date" name="date" /><br /></td>
+        </tr>
+        <tr>
+          <td>Giới tính:</td>
+          <td>
+            <input type="radio" name="gender" value="male" />
+            <label name="male">Nam</label>
+            <input type="radio" name="gender" value="female" />
+            <label name="male">Nữ</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Số điện thoại:</td>
+          <td><input type="tel" name="email" /><br /></td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><input type="email" name="email" /><br /></td>
+        </tr>
+        <tr>
+          <td>Địa chỉ:</td>
+          <td><textarea name="địa chỉ" rows="2" cols=""></textarea></td>
+        </tr>
+        <tr>
+          <td>Vai trò trong nhóm:</td>
+          <td>
+            <select name="Vaitro">
+              <option value="1">Thành viên</option>
+              <option value="2">Quản lý</option>
+              <option value="3">Chủ nhóm</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Kĩ năng:</td>
+          <td><textarea name="kinang" rows="2" cols=""></textarea></td>
+        </tr>
+        <tr>
+          <td>Thời gian rãnh:</td>
+          <td>
+            <label
+              ><input type="checkbox" name="ranh" value="sang" />Sáng</label
+            >
+            <label
+              ><input type="checkbox" name="ranh" value="chieu" />Chiều</label
+            >
+            <label><input type="checkbox" name="ranh" value="toi" />Tối</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Lý do tham gia nhóm:</td>
+          <td><textarea name="lydo" rows="2" cols=""></textarea></td>
+        </tr>
+
+        <tr>
+          <td>Màu yêu thích:</td>
+          <td>
+            <input type="color" name="color">
+          </td>
+        </tr>
+        <tr>
+            <td>Đăng ký nhận bản tin:</td>
+            <td><input type="checkbox" name="bantin" value="co"> có</td>
+        </tr>
+        <tr>
+          <td>Nhận thông báo qua:</td>
+          <td>
+            <input type="radio" name="thongbao" value="email" />
+            <label name="email">Email</label>
+            <input type="radio" name="thongbao" value="tel" />
+            <label name="tel">SMS</label>
+          </td>
+        </tr>
+        <br /><label></label>
+        <tr>
+          <td><button>Đăng ký thành viên</button></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
