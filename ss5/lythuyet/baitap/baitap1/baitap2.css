@@ -1,0 +1,15 @@
+html{
+    background-color: black;
+    font-family:Roboto;
+}
+h1{
+    color:white;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+div{
+    color: greenyellow;
+    font-size: 130%;
+}

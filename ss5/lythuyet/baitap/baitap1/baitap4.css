@@ -1,0 +1,15 @@
+
+.flex{
+    display: flex;
+    flex-wrap:nowrap;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.full{
+    font: weight :900;
+}
+.mo{
+    opacity: 0.5;
+}
+
+
+

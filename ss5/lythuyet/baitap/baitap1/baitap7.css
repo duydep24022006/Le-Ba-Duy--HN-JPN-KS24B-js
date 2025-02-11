@@ -1,0 +1,51 @@
+html{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.tong{
+    background-color: #f1f1f1;
+}
+table,
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+.th{
+    background-color: rgb(9, 9, 247);
+    color: white
+}
+.tr2{
+background-color: white;
+}
+.tr4{
+    background-color: white;
+}
+.View{
+    background-color: green;
+}
+.Delete{
+    background-color: red;
+}
+.Update{
+    background-color: yellow;
+}
+#th1{
+    width: 50px;
+}
+#th1 {
+    width: 50px;
+}
+#th2 {
+    width: 400px;
+}
+#th3 {
+    width: 150px;
+}
+#th4 {
+    width: 200px;
+}
+#th5 {
+    width: 300px;
+}
+

@@ -1,0 +1,31 @@
+.divH1{
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.th{
+    background-color:rgb(69, 69, 237);
+}
+.tr2{
+    background-color:white ;
+}
+
+.divTable{
+    border: 1p white;
+    border-collapse: collapse;
+}
+ table,
+ th,
+ td {
+     border: 1px solid white;
+     border-collapse: collapse;
+ }
+
+ img {
+     border-radius: 15%;
+ }
+td{
+    width: 300px;
+}
+td.stt{
+    width: 50px;;
+}

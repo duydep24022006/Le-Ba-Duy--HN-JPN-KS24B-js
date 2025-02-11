@@ -1,0 +1,57 @@
+.text2 {
+    
+    color: rgb(246, 5, 45);
+}
+
+.text2,
+.text1 {
+    display: inline-block;
+}
+
+.text3 {
+    border: 5px solid rgb(9, 255, 0);
+    color: black;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.background {
+    background-color: rgb(195, 209, 209);
+}
+
+.bgr1 {
+    background-color: white;
+    border-left: 5px solid green;
+}
+
+.submit {
+    background-color: rgb(72, 185, 72);
+    color: white;
+    border: none;
+}
+
+.t1,
+.t6 {
+    color: blueviolet;
+}
+
+.t2,
+.t4 {
+    color: red
+}
+
+.t3,
+.t5 {
+    color: blue;
+}
+
+.t2,
+.t3 {
+    display: inline-block;
+}
+
+.t4,
+.t5 {
+    display: inline-block
+}

@@ -1,0 +1,10 @@
+.divT{
+    font-weight: 400;
+}
+.divM{
+    border-left: 5px solid rgb(190, 190, 94);
+    background-color: rgb(230, 230, 169);
+}
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
