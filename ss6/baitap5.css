@@ -1,0 +1,50 @@
+html{
+    width: 1000px;
+}
+.header{
+    background-color: rgb(123, 194, 18);
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        height: 40px;
+}
+h2{
+    width: 730px;
+    color: white;
+    font-size:small;
+}
+span a{
+    color:white;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 55px;
+}
+
+.get{
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 30px;
+}
+.get button{
+    background-color: rgb(5, 180, 5);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.Feature button{
+    border: none;
+    background-color:#f1f1f1 ;
+    color:black;
+    padding: 10px;
+    border-radius: 10px;
+    padding: 10px 130px;
+    border-left: 8px  solid white ;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding:  1px 0 ;
+}

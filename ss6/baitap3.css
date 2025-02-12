@@ -4,7 +4,8 @@
     display: flex;
     flex-wrap: nowrap;
     align-items:center;
-    padding: 20px;
+    padding: 20px ;
+    width: 1700px;
 }
 .header a{
     text-decoration: none;
@@ -27,4 +28,40 @@ h1{
 }
 .contact{
     color: white;
+}
+.main{
+    background-color: #f1f1f1;
+    width: 1740px;
+    padding: 10px;
+}
+img{
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid red;
+}
+.main1{
+    display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding: 40px;
+}
+.main1 p{
+    font-size: 150%;
+    ;
+}
+.main2{
+    background-color: white;
+    padding: 30px 0;
+}
+.main2 button{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    width: auto;
+    padding: 30px 190px;
+    justify-content: flex-start;
+}
+.footer{
+    text-align: center;
 }
