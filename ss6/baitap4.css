@@ -30,7 +30,6 @@ html{
     padding: 20px 0;
     color: white;
     font-size: larger;
-    display: flex;
     flex-wrap:nowrap;
     
 }
