@@ -1,0 +1,32 @@
+html{
+    text-align: center;
+}
+.header a{
+    text-decoration: none;
+}
+
+.header{
+    flex-flow: center;
+    background-color: rgb(7, 195, 145);
+    padding: 25px;
+}
+.about{
+    display: inline-block ;
+    width:100px;
+}
+.main{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+img{
+    background-color: red ;
+    border-radius: 50%;
+    border: 5px solid red;
+}
+.footer {
+    padding: 5px;
+    background-color: #f1f1f1; 
+}

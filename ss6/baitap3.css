@@ -1,0 +1,30 @@
+
+.header{
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items:center;
+    padding: 20px;
+}
+.header a{
+    text-decoration: none;
+    font-size: 130%;
+}
+h1{
+    color: white;
+    background: black  ;
+    width: 80%;
+    
+}
+.projeck{
+    color:white;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+}
+.home{
+    color: white;
+}
+.contact{
+    color: white;
+}
