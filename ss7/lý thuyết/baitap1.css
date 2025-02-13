@@ -1,0 +1,31 @@
+html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.body{
+    background-color: #f1f1f1;
+    padding: 10px 15px;
+}
+.caption{
+    font-size: 200%;
+    font-weight:800;
+    line-height: 15px;
+}
+.span{
+    line-height: 20px;
+    font-size: 100%;
+}
+.ntv{
+    background-color: red;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 0px 10px 0px 0px;
+}
+.kt{
+    padding: 8px;
+    border-radius: 5px ;
+    border: 2px solid gray;
+}
+img{
+    vertical-align: middle;
+}
