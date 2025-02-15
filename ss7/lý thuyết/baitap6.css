@@ -1,0 +1,74 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: sans-serif;
+    margin: 50px;
+    background: #f9f9f9;
+}
+
+.head {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.item {
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.item input[type="checkbox"] {
+    display: none;
+}
+
+.accordion-header {
+    display: block;
+    cursor: pointer;
+    padding: 1rem;
+    margin: 0;
+    font-weight: 600;
+    background-color: #f8f9fa;
+    transition: background-color 0.2s ease;
+    position: relative;
+}
+
+.accordion-header:hover {
+    background-color: #e9ecef;
+}
+
+.accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 1rem;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    background-color: #fff;
+}
+
+.accordion-body p {
+    margin: 1rem 0;
+}
+
+.item input[type="checkbox"]:checked~.accordion-body {
+    max-height: 300px;
+    padding: 1rem;
+}
+
+.accordion-header::after {
+    content: "\2228";
+    position: absolute;
+    right: 1rem;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+}
+
+.accordion-item input[type="checkbox"]:checked~.accordion-header::after {
+    transform: rotate(90deg);
+}
+
+.anh {
+    color: violet;
+}
