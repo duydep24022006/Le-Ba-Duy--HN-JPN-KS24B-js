@@ -1,0 +1,39 @@
+
+.header{
+    border-bottom: 1px solid red;
+    width: 170px;
+}
+.main1,.main2{
+    display: flex;
+    .Portitor ,.Sapien ,.Quam ,.Sed{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }   
+    .left {
+        position: relative;
+        height: 100px;
+        width: 100px;
+        margin: 50px 20px 50px;
+        border: 1px solid #878686;
+        transform: rotate(45deg);
+    }
+    .left1 {
+        background-color: white;
+        font-size: 40px;
+        position: relative;
+        top: 30px;
+        left: 30px;
+        margin-right: 70px;
+        color: red;
+        transform-origin:center;
+        transform: rotate(315deg);
+    }
+    .rigth {
+        width: 50%;
+        line-height: 25px;
+        p {
+            opacity: 0.5;
+        }
+    }
+}

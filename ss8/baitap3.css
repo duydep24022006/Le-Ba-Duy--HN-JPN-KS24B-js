@@ -1,0 +1,35 @@
+h1{
+    border-bottom: 1px solid red;
+    width: 230px;
+    line-height: 60px;
+    margin-bottom: 50px;
+}
+.main{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+
+}
+img{
+    border-radius: 5px;
+}
+.left ,.betwen {
+    border-right: 1px solid #f1f1f1;
+    width: 320px;
+}
+.left,.betwen ,.rigth{
+
+}
+.main p{
+    font-size: larger;
+    width: 300px;
+    opacity: 0.5;
+}
+button{
+    background:transparent ;
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+    border: 2px solid red;
+    color: red;
+    margin-top: 20px;
+}

@@ -1,0 +1,47 @@
+.main{
+    background: linear-gradient(to bottom, #3c3b5c, #1f1e30);
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 400px;
+}
+.name_emal{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+    color: white;
+}
+.name_emal input{
+    border-radius: 3px;
+    border: 1px solid #7d7c7c;
+    background-color: rgba(0, 0, 0, 0);
+}
+.name , .email{
+    line-height: 20px;
+}
+#Message{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0);
+    width: 350px;
+    height: 80px;
+    border: 1px solid #7d7c7c;
+}
+.mesage{
+    color: white;
+}
+.main label{
+    font-size:50%;
+}
+.name{
+     margin-right:20px;
+}
+button{
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 6px;
+
+}
