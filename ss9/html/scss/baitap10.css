@@ -1,0 +1,108 @@
+
+.header{
+    background-color: rgba(31, 134, 244, 0.617);
+    display: flex;
+    flex-wrap: nowrap;
+    
+    .left{
+        margin-left: 10px;
+        width: 85%;
+        color: white;
+        .list{
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 15px;
+            a {
+                    color: white;
+                    font-weight: 500;
+                    text-decoration: none;
+                    opacity: 0.5;
+            }
+            .User{
+                border-bottom: 2px solid white;
+                height: 30px;
+                opacity: 1;
+                border-radius: 2px;
+            }
+        }
+        
+    }
+       
+    .rigth{
+
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        color: white;
+        margin-top: 15px;
+        .icon {
+                color: white;
+        }
+        .rigth_top{
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 15px;
+            align-items: center;
+            
+            img{
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                vertical-align: middle;
+            }
+        }
+        .rigth_bottom{
+            display: flex;
+            flex-wrap: nowrap;
+            button{
+                background-color: rgba(0,0,0,0);
+                border: 1px solid white;
+                color: white;
+                border-radius: 5px;
+                padding:5px;
+                margin-left: 30px;
+            }
+            .icon{
+                margin-left: 20px;
+                margin-top: 5px;
+            }
+        }
+    }
+}
+.footer{
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    padding: 50px;
+    height: 500px;
+    .search{
+        background-color: #216c0e31;
+        padding: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 0px 5px;
+        input {
+            border: none;
+            background-color: rgba(0, 0, 0, 0);
+            width: 800px;
+            width: ;
+        }
+    button{
+        border: none;
+        padding: 5px;
+        background-color: rgb(0, 145, 255);
+        color: white;
+        border-radius: 5px;
+    }
+    }
+    .projeck{
+        text-align: center;
+        background-color: white;
+        padding: 40px;
+        border-radius: 5px 0px;
+    }
+}
+
