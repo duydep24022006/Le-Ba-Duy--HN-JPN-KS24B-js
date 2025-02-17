@@ -1,0 +1,30 @@
+.header, .footer {
+  background-color: rgb(135, 135, 244);
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+.main .Sidebar, .main .conten {
+  background-color: greenyellow;
+  width: 40%;
+  height: 400px;
+}
+.main .conten {
+  background-color: tomato;
+  width: 60%;
+}
+
+.footer {
+  background-color: rebeccapurple;
+  margin-top: 10px;
+}
+
+p {
+  margin-left: 5px;
+  margin-top: 1px;
+}/*# sourceMappingURL=baitap4.css.map */

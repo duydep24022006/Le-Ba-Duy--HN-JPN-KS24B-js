@@ -1,0 +1,34 @@
+.main_top{
+    display: flex;
+    flex-wrap: nowrap;
+    .chill{
+        background-color: rebeccapurple;
+        width: 120px;
+        height: 50px; 
+        margin: 2px 2px 5px 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+}
+.main_bottom{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 745px;
+    .chill {
+        background-color: rebeccapurple;
+        width: 120px;
+        height: 50px;
+        margin: 2px 2px 5px 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+}

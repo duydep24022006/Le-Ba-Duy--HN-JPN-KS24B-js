@@ -1,0 +1,30 @@
+.main_top, .main_bottom {
+  display: flex;
+  align-items: center;
+}
+.main_top .left, .main_bottom .left {
+  width: 300px;
+  height: 146px;
+  margin: 2px 2px 5px 2px;
+  background-color: rebeccapurple;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+.main_top .rigth .chill1, .main_bottom .rigth .chill1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_top .rigth .chill1 .chill, .main_bottom .rigth .chill1 .chill {
+  background-color: rebeccapurple;
+  width: 150px;
+  height: 70px;
+  margin: 2px 2px 5px 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+}/*# sourceMappingURL=baitap6.css.map */

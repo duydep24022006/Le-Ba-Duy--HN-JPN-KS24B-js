@@ -1,0 +1,30 @@
+.header{
+    background-color:rgb(135, 135, 244) ;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.main{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    .Sidebar{
+        background-color: greenyellow;
+        width: 40%;
+        height: 400px;
+
+    }
+    .conten{
+        @extend .Sidebar;
+        background-color:tomato;
+        width: 60%;
+    }
+}
+.footer{
+    @extend .header;
+    background-color: rebeccapurple;
+    margin-top: 10px;
+}
+p{
+    margin-left: 5px;
+    margin-top: 1px;
+}

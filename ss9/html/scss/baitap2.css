@@ -1,0 +1,22 @@
+.parents {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+    border: 2px solid black;
+    justify-content: center;
+    background-color: #f8f8f8;
+}
+.chill{
+    width: 120px;
+    height: 50px;
+    background-color: #2ecc71;
+    margin: 2px 2px 5px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    border-radius: 2px;
+}

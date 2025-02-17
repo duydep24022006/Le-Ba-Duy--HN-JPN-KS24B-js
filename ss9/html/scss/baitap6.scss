@@ -1,0 +1,35 @@
+.main_top{
+    display: flex;
+    align-items: center;
+    .left{
+        width:300px;
+        height: 146px;
+        margin: 2px 2px 5px 2px;
+        background-color: rebeccapurple;
+        justify-content: center;
+        color: white;
+        font-size: 16px;
+        text-align: center;
+    }
+    .rigth{
+        .chill1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .chill{
+                background-color: rebeccapurple;
+                width: 150px;
+                height: 70px;
+                margin: 2px 2px 5px 2px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                font-size: 16px;
+            }
+        }
+    }
+}
+.main_bottom{
+    @extend .main_top;
+}
