@@ -1,0 +1,89 @@
+.contaiter{
+    width: 1100px;
+    height: auto;
+    .header{
+        border-top:1px solid black;
+        border-bottom: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        .list{
+            margin: 15px 5px;
+            width: 80%;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            margin: 15px 5px;
+            color: black;
+        }
+        .paper{
+            color: blue;
+          margin-left: 0px;
+        }
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        .left{
+            position: relative;
+            width: 50%;
+            h1{
+                position:absolute;
+                top:300px;
+                left: 20px;
+                width: 450px;
+                font-size:150%;
+                background-color: aliceblue;
+                padding:5px;
+            }
+        }
+        .betwin{
+            h3{
+                background-color: yellow;
+                padding:5px;
+                width: 130px;
+            }
+            .text{
+                margin-bottom: 10px;
+                border-bottom: 1px solid #ccc;
+            }
+        }
+        .rigth{
+            width: 300px;
+            .text1{
+                background-color: #ccc;
+                h3{
+                    background-color: yellow;
+                    padding: 5px;
+                    width: 130px;
+                }
+            }
+            a{
+                margin-left: 250px;
+                text-decoration: none;
+                color: blue;
+                font-weight: 800;
+            }
+            .footer{
+                h3{
+                    color: blue;
+                }
+                input{
+                    background-color: rgba(0,0,0,0);
+                    border: none;
+                    width: 225px;
+                }
+                button{
+                    background-color: blue;
+                    color: white;
+                    border: none;
+                    padding: 2px;
+                }
+            }
+        }
+    }
+
+}

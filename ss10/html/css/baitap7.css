@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #fffcfc;
+    .container_left{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        .hero-section{
+            
+        }
+        .section{
+            .section_chill{
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;
+            }
+        }
+    }
+}

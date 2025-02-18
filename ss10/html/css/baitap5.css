@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #cccc;
+}
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 10px 100px 10px 100px ;
+    .caption{
+        font-size: 150%;
+    }
+    .main{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 10px;
+        border: 10px 0px 10px ;
+        border-bottom: 1px solid white;
+        img{
+            border-radius: 10px;
+        }
+        .rigth{
+            .main_top--year{
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;
+                gap: 10px;
+                .year{
+                    background-color: blue;
+                    color: white;
+                    padding: 2px 5px;
+                    border-radius: 50px;
+                }
+            }
+            .text {
+                opacity: 0.5;
+            }
+        }
+    }
+    .footer{
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        .container_icon{
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            font-size: 200%;
+        }
+    }
+}

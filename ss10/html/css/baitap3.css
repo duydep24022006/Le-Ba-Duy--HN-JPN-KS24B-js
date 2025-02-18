@@ -1,0 +1,66 @@
+.main{
+    font-family: "Atkinson Hyperlegible Next", serif;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #cccc;
+    align-items: center;
+    margin-left: 500px;
+    width: 300px;
+    height: 570px;
+    border-radius: 10px;
+    .header{
+        position: relative;
+        img{
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        button{
+            background-color: rgba(0,0,0,0);
+            border-radius: 5px;
+            border: 1px solid white;
+            padding: 5px;
+            position:absolute;
+            top: 10px;
+            right: 15px;
+        }
+    }
+    .footer{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items:flex-start;
+        flex-direction: column;
+        .footer_avata{
+
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            img {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;     
+            }
+            
+        }
+      .date {
+        opacity: 0.5;
+      }
+      .text{
+        h2{
+            font-size: medium;
+        }
+
+        p{
+            opacity: 0.6;
+        }
+      }
+        
+    }
+
+}
