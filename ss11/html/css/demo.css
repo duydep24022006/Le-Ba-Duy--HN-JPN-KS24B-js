@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 50px;
+    gap: 20px;
+}
+
+.parent .child {
+    background-color: red;
+    width: calc(25% - 20px);
+    min-height: 150px;
+}
+
+@media screen and (max-width: 780px) {
+    .parent {
+        .child{
+            width: calc(50% - 20px);
+            background-color: green;
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+    .parent {
+
+        justify-content: center;
+        .child {
+            width: calc(100% - 20px);
+            background-color: green;
+        }
+    }
+    
+}
