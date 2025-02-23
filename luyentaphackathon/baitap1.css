@@ -1,0 +1,122 @@
+.container{
+    width: 1440px;
+    height: 1485px;
+    background-color: #FFFFFF;
+    font-family: "Open Sans", serif;
+}
+.container_card-bar{
+    height: 142px;
+
+}
+.bar_top{
+    color: #FAFAFA; 
+    .bar_top_frame{
+        display: flex;
+        background-color: #000000;
+        align-items: center;
+        .frame_caption {
+            display: flex;
+            align-items: center;
+            background-color: #000000;
+            margin-left: 445px;
+            margin-right: 231px;
+            gap: 8px;
+            font-size: 14px;
+            a {
+                color: #FAFAFA;
+                line-height: 24px;
+                font-weight: 600;
+            }
+        }
+        .frame_Language--Selector{
+            margin-right:136px ;
+            #Language--Selector{
+                border: none;
+                color: #FAFAFA;
+                font-size: 14px;
+                background-color: #000000;
+            }   
+        }
+    }
+}
+.bar_top-main{
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid #000000;
+    .main_left{
+        display: flex;
+        justify-content: center;
+        margin-top: 47px;
+        margin-bottom: 23px;
+        color: #000000;
+        .main_left-Heading{
+            font-size: 24px;
+            line-height: 24px;
+            letter-spacing: 3%;
+            font-weight: 700;
+            margin-right: 160px;
+            margin-left: 135px;
+            
+        }
+        .main_left-menu {
+            display: flex;
+            gap: 48px;
+            margin-right: 130px;
+            a {
+                text-decoration: none;
+                color: #000000;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+    .main_rigth{
+        display: flex;
+        align-items: center;
+        color: #000000;
+        margin-top: 40px;
+        margin-bottom: 16px;
+        
+        .main_rigth-seach{
+            display: flex;
+            align-items: center;
+            width: 211px;
+            height: 24px;
+            padding: 7px 12px 7px 20px;
+            margin-right: 20px;
+            background-color: #F5F5F5;
+            input{
+                border: none;
+                background-color:#F5F5F5;
+                margin-right: 15px;
+                
+            }
+            .ai-Search{
+                padding: 4px;
+            }
+        }
+        .main_rigth-icon{
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            .ai-Heart{
+                padding: 7px 6px;
+                border: 1.5px;
+            }
+            .img{
+                width: 32px;
+                height: 32px;
+                background-color: #DB4444;
+                border-radius: 50%;
+                font-weight: 900;
+            
+            img{
+                background-color: rgba(0, 0, 0, 0);
+            }
+        }
+                       
+            
+        }
+    }
+}
