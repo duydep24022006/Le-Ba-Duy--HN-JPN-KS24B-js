@@ -1,0 +1,365 @@
+.container {
+    width: 1440px;
+    background-color: #FFFFFF;
+    font-family: "Open Sans", serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    height: 104px;
+    padding: 12px 80px;
+}
+
+.header .main_logo {
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+    gap: 8px;
+}
+
+.header .main_logo h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -2%;
+    color: #000000;
+}
+
+.header .main_menu {
+    display: flex;
+    gap: 32px;
+}
+
+.header .main_menu a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -2%;
+}
+
+.header .main_button button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 153px;
+    height: 56px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -2%;
+}
+
+.main .main_top {
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 596px;
+    padding: 60px 80px;
+    position: relative;
+    margin-bottom: 60px;
+    margin-left: 40px;
+}
+
+.main .main_top .top_left {
+    position: absolute;
+    width: 600px;
+    height: 376px;
+}
+
+.main .main_top .top_left h1 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -2%;
+}
+
+.main .main_top .top_left h1 b {
+    font-weight: 800;
+}
+
+.main .main_top .top_left p {
+    width: 550px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -2%;
+    color: #71717A;
+    margin-bottom: 157px;
+    margin-top: 32px;
+}
+
+.main .main_top .top_left .left_bottom {
+    display: flex;
+    gap: 32px;
+}
+
+.main .main_top .top_rigth {
+    position: absolute;
+    left: 359px;
+    right: 32px;
+}
+
+.main .main_betwen {
+    margin: 60px 130px;
+    width: 1280px;
+    height: 608px;
+}
+
+.main .main_betwen h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -2%;
+}
+
+.main .main_betwen h2 b {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -2%;
+}
+
+.main .main_betwen .row {
+    width: 1216px;
+    height: 492px;
+    display: flex;
+    margin-top: 40px;
+    gap: 71px;
+}
+
+.main .main_betwen .row .icon {
+    width: 186px;
+    height: 186px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #000000;
+}
+.main .main_betwen .row .icon:hover{
+    background-color: #000000;
+    filter: invert(1);
+    
+}
+.main .main_bottom {
+    width: 1440px;
+    height: 956px;
+    background-color: #000000;
+}
+
+.main .main_bottom .h2 h2 {
+    padding-top: 60px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -2%;
+}
+
+.main .main_bottom .h2 h2 b {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -2%;
+}
+
+.main .main_bottom .bottom_main {
+    width: 1216px;
+    height: 720px;
+    padding: 20px 112px 60px 112px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.main .main_bottom .bottom_main .google {
+    border: 1px solid #71717A;
+    border-radius: 10px;
+    margin-bottom: 32px;
+    width: 1168px;
+}
+
+.main .main_bottom .bottom_main .google .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .main_bottom .bottom_main .google .top .top_left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.main .main_bottom .bottom_main .google .top .top_left p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -2%;
+}
+
+.main .main_bottom .bottom_main .google .top .top_rigth {
+    margin-left: 30px;
+    padding-top: 30px;
+    margin-right: 24px;
+}
+
+.main .main_bottom .bottom_main .google .bottom {
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #D4D4D8;
+    padding-bottom: 30px;
+    padding-top: 28px;
+}
+
+.main .main_bottom .bottom_main .youtube {
+    background-color: #27272A;
+    border-radius: 10px;
+    margin-bottom: 32px;
+    width: 1168px;
+}
+
+.main .main_bottom .bottom_main .youtube .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .main_bottom .bottom_main .youtube .top .top_left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.main .main_bottom .bottom_main .youtube .top .top_left p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -2%;
+}
+
+.main .main_bottom .bottom_main .youtube .top .top_rigth {
+    margin-left: 30px;
+    padding-top: 30px;
+    margin-right: 24px;
+}
+
+.main .main_bottom .bottom_main .youtube .bottom {
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #D4D4D8;
+    padding-bottom: 30px;
+    padding-top: 28px;
+}
+
+.main .main_bottom .bottom_main .apple {
+    border: 1px solid #71717A;
+    border-radius: 10px;
+    margin-bottom: 32px;
+    padding-top: 30px;
+    width: 1168px;
+}
+
+.main .main_bottom .bottom_main .apple .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .main_bottom .bottom_main .apple .top .top_left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 30px;
+}
+
+.main .main_bottom .bottom_main .apple .top .top_left p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -2%;
+}
+
+.main .main_bottom .bottom_main .apple .top .top_rigth {
+    margin-left: 30px;
+    padding-top: 8px;
+    margin-right: 24px;
+}
+
+.main .main_bottom .bottom_main .apple .bottom {
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #D4D4D8;
+    padding-bottom: 30px;
+    padding-top: 28px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    height: 100px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 24px 80px;
+}
+
+.footer .footer_logo {
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+    gap: 8px;
+}
+
+.footer .footer_logo img {
+    filter: invert(1);
+}
+
+.footer .footer_logo h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -2%;
+    background-color: #000000;
+}
+
+.footer .footer_container {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -2%;
+    background-color: #000000;
+    margin-right: 32px;
+}
+
+.footer .footer_container .footer_container-bottom {
+    margin-left: 57px;
+}
+@media only screen and (max-width: 1024px){
+    .container{
+        width: 90%;
+    }
+}
