@@ -9,7 +9,7 @@ if (Number.isInteger(money) && (money % 1000 === 0)) {
             money = money - minMoneyDraw * count;
         }
         if (minMoneyDraw === 500000) {
-            minMoneyDraw = 200000; //gán
+            minMoneyDraw = 200000;
         } else if (minMoneyDraw === 200000) {
             minMoneyDraw = 100000;
         } else if (minMoneyDraw === 100000) {
