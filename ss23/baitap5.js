@@ -1,8 +1,20 @@
-let arr = [' ' , false, 0, 5, 10, 'Hello world!','JavaScript', 0, null, true, 7, '',undefined];
-for (let i = 0; i < arr.length; i++) {
-    if (false == arr[i]||null == arr[i]||undefined==arr[i]) {
-        arr.splice(i, 1);
-        i--;
+let arr = [];
+let length = Number(prompt("moi bạn nhập vào số phần tử trong mảng"));
+let count = 0;
+let flag = 0;
+let sum = 0;
+if (length>0) {
+    for (let i = 1; i <= length; i++) {
+            let number = prompt("moi bạn nhập vào giá trị vị trí thứ " + i);
+            arr.push(number);
     }
-}s
-console.log(arr)
+    for (let i = 0; i < arr.length; i++) {
+        if (Number.isInteger(Number(arr[i]))) {
+            sum += Number(arr[i]);
+            flag = 1;
+        }
+    }
+    flag ? console.log(sum) : console.log("không có ký tự số") ;
+} else {
+    console.log("số lượng phần tử không hợp lệ")
+}
