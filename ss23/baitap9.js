@@ -76,11 +76,10 @@ do {
                     }
                     if (isPrime) {
                         primeNumbers.push(num);
-                        sum += num;
                     }
                 }
             }
-            primeNumbers.length > 0 ? console.log("Số nguyên tố trong mảng:", primeNumbers, "Tổng:", sum) : console.log("Không có số nguyên tố trong mảng.");
+            primeNumbers.length > 0 ? console.log("Số nguyên tố trong mảng:", primeNumbers) : console.log("Không có số nguyên tố trong mảng.");
             break;
 
         case 6:
