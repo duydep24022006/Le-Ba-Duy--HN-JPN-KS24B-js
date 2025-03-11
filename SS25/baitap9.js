@@ -7,10 +7,12 @@ function isValidEmail(email) {
 function isEmail(email, arr) {
     if (!isValidEmail(email)) {
         console.log("Email không hợp lệ");
+        return;
     }
     if (users.includes(email)) {
         console.log("tài khoản đã tồn tại");
     } else {
+        arr.push(email);
         console.log("tài khoản đc đăng kí thành công");
     }
 }
