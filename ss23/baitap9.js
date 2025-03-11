@@ -62,7 +62,6 @@ do {
             break;
 
         case 5:
-            sum = 0;
             let primeNumbers = [];
             for (let i = 0; i < arr.length; i++) {
                 let num = arr[i];

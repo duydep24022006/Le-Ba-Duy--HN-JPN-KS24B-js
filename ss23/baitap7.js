@@ -1,6 +1,5 @@
 let arr = [];
 
-
 for (let i = 1; i <= 10; i++){
     do {
         let number = prompt("moi bạn nhập vào giá trị vị trí thứ " + i);
