@@ -5,9 +5,13 @@ function isprime(number) {
         
         return -1;
     }
+    console.log(number);
+    
     if (number < 2||number%2==0) {
         return 0;
     }
+    console.log(number);
+    
     if (number === 2) {
         return 1;
     }

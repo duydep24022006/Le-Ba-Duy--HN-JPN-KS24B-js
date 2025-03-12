@@ -16,4 +16,3 @@ let testPassword = isStrongPassword(password);
 console.log(testPassword);
 
 testPassword?console.log("true"):console.log("false");
-
