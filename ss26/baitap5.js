@@ -1,8 +1,20 @@
-let test1 = [10, 9, 5, 11, 24, 5];
-let test2 = [];
-let test3 = "abc";
-
+let arr = [];
+function input(arr) {
+    
+        for (let i = 0; i < 10; i++){
+            do {
+                arr[i] = +prompt(`mời bạn nhập phần tử thứ ${i+1}`);
+                if (Number.isInteger(arr[i])) {
+                    break;
+                } else {
+                    alert("lỗi cú pháp mời bạn nhập lại ") 
+                }
+            } while (1);
+        }
+    return arr;
+}
 function filter(arr) {
+    arr = input(arr);
     if (Array.isArray(arr)) {
         if (arr.length===0) {
             console.log("Mảng không có phần tử nào");
@@ -16,13 +28,10 @@ function filter(arr) {
                 indexMax = index;
             }
         })
-        console.log(`max: ${max}`);
+        console.log(`max = ${max}`);
         console.log(`position: ${indexMax}`);
-        
     } else{
         console.log("dữ liệu không hợp lệ")
     }
 }
-filter(test1);
-filter(test2);
-filter(test3);
+filter(arr);

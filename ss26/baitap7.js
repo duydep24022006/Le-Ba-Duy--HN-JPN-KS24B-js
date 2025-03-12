@@ -12,26 +12,6 @@ function input(arr) {
         }
     return arr;
 }
-function isprime(number) {
-    if (!Number.isFinite(number)) {
-        return -1;
-    }
-    if (number === 2) {
-        return 1;
-    }
-    if (number < 2||number%2==0) {
-        return 0;
-    }
-    let count=3;
-    while (count < number) {
-        if (number % count === 0) {
-            return 0;
-        }
-        count += 2;
-    }
-    return 1;
-}
-
 function filter(arr) {
     arr = input(arr);
     if (Array.isArray(arr)) {
@@ -39,11 +19,10 @@ function filter(arr) {
             console.log("Mảng không có phần tử nào");
             return;
         }
-        let result = arr.filter((item) => isprime(item))
-        result?console.log(result):console.log("mảng không có số nguyên tố")
+        let result = arr.filter((item) => item % 2 === 0).map((item) => item ** 2);
+        console.log(result);
     } else{
         console.log("dữ liệu không hợp lệ")
     }
 }
 filter(arr);
- 
