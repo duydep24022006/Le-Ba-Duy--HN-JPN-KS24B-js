@@ -11,7 +11,7 @@ function main() {
                 alert(`${result}`)
                 break;
             case 2:
-                [firstNum, secondNum]=inputNum();
+                [firstNum, secondNum] = inputNum(); 
                 
                 result = subtraction(firstNum, secondNum);
                 alert(`${result}`)
