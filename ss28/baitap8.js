@@ -1,28 +1,43 @@
-const user = {};
-let id = 1;
-let choice = 1;
-
-const menu = {
-  1: () => {
-    const [name, position, salary] = userInput();
-    user[id] = { id, name, position, salary };
-    id++;
-    console.table(users);
-  },
-};
-function main() {}
-function showMenu() {
-  let choice = +prompt(`
-                Thêm nhân viên mới.
-                Xóa nhân viên theo id.
-                Cập nhật mức lương của nhân viên theo id
-                Tìm kiếm nhân viên theo tên.`);
+const users = {};
+let id,name, position, salary;
+function main() {
+    let choice;
+    do {
+        choice=showMenu(choice);
+        switch (choice) {
+            case 1:
+                
+                break;
+            case 2:
+                
+                break;
+            case 3:
+                
+                break;
+            case 4:
+                
+                break;
+            case 5:
+                
+                break;
+            
+            default:
+                break;
+        }
+    } while (choice!==5);
 }
-function userInput() {
-  name = prompt("mời bạn nhập tên ");
-  position = prompt("mời bạn nhập vị trí trong công ty");
-  salary = prompt("mời bạn nhập bảng lương");
-  return [, name, position, salary];
+function showMenu(choice) {
+     choice = +prompt(`==========MENU=========
+    1.Thêm nhân viên mới.
+    2.Xóa nhân viên theo id.
+    3.Cập nhật mức lương của nhân viên theo id.
+    4.Tìm kiếm nhân viên theo tên.
+    5.Thoát.
+========================
+        Mời bạn nhập lựa chọn:`);
+     return choice;
 }
-menu[choice];
- 
+function addUser() {
+    let nameUser=prompt("")
+}
+main();
