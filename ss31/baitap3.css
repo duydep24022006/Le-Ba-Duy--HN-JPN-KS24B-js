@@ -1,0 +1,36 @@
+.container{
+    padding-left: 20px;
+    margin-top: 5px;
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    #green{
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        background-color: green;
+    }
+    #red{
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        background-color: red;
+    }
+    #purple{
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        background-color: purple;
+    }
+}
+
+.cl-red {
+    background-color: red !important;
+}
+.cl-green{
+    background-color: green !important;
+}
+
+.cl-purple{
+    background-color: purple !important;
+}

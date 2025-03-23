@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List K24_PTIT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 flex justify-center items-center h-screen">
+    <div class="bg-white p-6 rounded-lg shadow-lg w-96">
+      <h1 class="text-2xl font-bold text-center mb-4">To-Do List K24_PTIT</h1>
+
+      <div class="flex space-x-2 mb-4">
+        <input
+          type="text"
+          id="taskInput"
+          class="flex-1 p-2 border rounded"
+          placeholder="Nhập nhiệm vụ..."
+        />
+        <button
+          id="addTaskBtn"
+          class="bg-green-500 text-white px-4 py-2 rounded"
+        >
+          Thêm
+        </button>
+      </div>
+
+      <ul id="taskList" class="space-y-1"></ul>
+    </div>
+
+    <script>
+      let addTaskBtn = document.getElementById("addTaskBtn");
+      addTaskBtn.addEventListener("click", function () {
+        let taskInput = document.getElementById("taskInput");
+        let taskText = taskInput.value.trim();
+
+        if (taskText === "") return;
+
+        let li = document.createElement("li");
+        li.classList = "flex justify-between items-center p-2 border-b";
+
+        let span = document.createElement("span");
+        span.innerText = taskText;
+
+        let deleteBtn = document.createElement("button");
+        deleteBtn.innerText = "X";
+        deleteBtn.classList = "bg-red-500 text-white px-3 py-1 rounded";
+        deleteBtn.addEventListener("click", function () {
+          li.remove();
+        });
+        li.appendChild(span);
+        li.appendChild(deleteBtn);
+        let taskList=document.getElementById("taskList");
+        taskList.appendChild(li);
+
+        taskInput.value = "";
+      });
+    </script>
+  </body>
+</html>

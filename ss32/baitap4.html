@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <form id="form">
+      <input type="text" id="email" placeholder="mời bạn nhập email" />
+      <p id="out"></p>
+      <button type="submit">Check</button>
+    </form>
+
+    <script>
+      let form = document.getElementById("form");
+      form.addEventListener("submit", function (even) {
+        event.preventDefault();
+        let email = form.email.value.trim();
+        let out = document.getElementById("out");
+        if (
+          email === "" ||
+          !(
+            email.includes("@") &&
+            (email.endsWith(".com") || email.endsWith(".vn"))
+          )
+        ) {
+          out.innerText = "Email không hợp lệ!";
+          out.style.color = "red";
+          email.value = "";
+        } else {
+          out.innerText = "Email hợp lệ!";
+          out.style.color = "green";
+          email.value = "";
+          
+        }
+      });
+    </script>
+  </body>
+</html>

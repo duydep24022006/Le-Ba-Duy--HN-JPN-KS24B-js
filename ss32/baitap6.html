@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thay đổi kích thước chữ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex justify-center items-center h-screen bg-gray-100">
+    <div
+      id="container"
+      class="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg"
+    >
+      <div id="text" class="text-[16px]">
+        Chữ sẽ thay đổi kích thước khi bấm nút
+      </div>
+
+      <div class="mt-4">
+        <button
+          id="btn1"
+          class="px-4 py-2 bg-green-500 text-white rounded-lg mx-2"
+        >
+          +
+        </button>
+        <button
+          id="btn2"
+          class="px-4 py-2 bg-red-500 text-white rounded-lg mx-2"
+        >
+          -
+        </button>
+      </div>
+    </div>
+
+    <script>
+      let text = document.getElementById("text");
+      let btn1 = document.getElementById("btn1");
+      let btn2 = document.getElementById("btn2");
+
+      let fontSizes = [5,10,12, 14, 16, 18, 20, 24, 30, 40, 50];
+      let index = fontSizes.indexOf(16);
+
+      btn1.addEventListener("click", function () {
+        if (index < fontSizes.length - 1) {
+          index++;
+          text.classList.remove(`text-[${fontSizes[index - 1]}px]`);
+          text.classList.add(`text-[${fontSizes[index]}px]`);
+        }
+      });
+
+      btn2.addEventListener("click", function () {
+        if (index > 0) {
+          index--;
+          text.classList.remove(`text-[${fontSizes[index + 1]}px]`);
+          text.classList.add(`text-[${fontSizes[index]}px]`);
+        }
+      });
+    </script>
+  </body>
+</html>

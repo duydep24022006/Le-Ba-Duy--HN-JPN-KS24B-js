@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <style>
+    #inputPassword {
+      position: relative;
+      width: 300px;
+      .password {
+        width: 100%;
+            padding: 10px;
+            padding-right: 40px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+      }
+      #icon{
+        position: absolute;
+            right: 1px;
+            top: 5%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            font-size: 20px;
+      }
+    }
+    
+  </style>
+  <body>
+    <div id="inputPassword">
+      <input
+        type="password"
+        placeholder="Enter your password"
+        class="password"
+      />
+      <p id="icon"><i class="fa-solid fa-eye"></i></p>
+    </div>
+    <script>
+      let iconEye=document.getElementById("icon");
+      let inputPassword=document.getElementsByClassName("password")[0];
+      iconEye.addEventListener("click", function(){
+        if(inputPassword.type==="password"){
+          inputPassword.type="text";
+        }else{
+          inputPassword.type="password";
+        }
+      })
+    </script>
+  </body>
+</html>

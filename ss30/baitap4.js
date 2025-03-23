@@ -1,7 +1,7 @@
 const readlineSync = require("readline-sync");
 
-let courses = []; 
-let users = []; 
+let courses = [];
+let users = [];
 function mainMenu() {
   while (true) {
     console.log("\n========== MENU CHÍNH ==========");
@@ -24,7 +24,6 @@ function mainMenu() {
     }
   }
 }
-
 
 function courseMenu() {
   while (true) {
@@ -54,12 +53,10 @@ function courseMenu() {
 function addCourse() {
   let name = readlineSync.question("Nhập tên khóa học: ").trim();
   let instructor = readlineSync.question("Nhập tên giảng viên: ").trim();
-
   if (!name || !instructor) {
     console.log(" Lỗi: Không được để trống thông tin.");
     return;
   }
-
   let id = "C" + (courses.length + 1);
   courses.push({ id, name, instructor, students: [] });
   console.log(` Đã thêm khóa học: ID = ${id}, Tên = "${name}"`);
@@ -94,7 +91,6 @@ function removeCourse() {
     console.log("⚠ Không tìm thấy khóa học.");
     return;
   }
-
 
   users.forEach((user) => {
     user.registeredCourses = user.registeredCourses.filter(
@@ -146,7 +142,6 @@ function addUser() {
   console.log(`Đã thêm người dùng: ID = ${id}, Tên = "${name}"`);
 }
 
-
 function registerUserToCourse() {
   let userId = readlineSync.question("Nhập ID người dùng: ").trim();
   let courseId = readlineSync.question("Nhập ID khóa học: ").trim();
@@ -171,7 +166,6 @@ function registerUserToCourse() {
   );
 }
 
-
 function unregisterUserFromCourse() {
   let userId = readlineSync.question("Nhập ID người dùng: ").trim();
   let courseId = readlineSync.question("Nhập ID khóa học: ").trim();
@@ -193,7 +187,6 @@ function unregisterUserFromCourse() {
   );
 }
 
-
 function listUserCourses() {
   let userId = readlineSync.question("Nhập ID người dùng: ").trim();
   let user = users.find((u) => u.id === userId);
@@ -212,6 +205,5 @@ function listUserCourses() {
     }`
   );
 }
-
 
 mainMenu();

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .container {
+      align-content: center;
+      display: flex;
+      gap: 20px;
+    }
+    #h1,
+    #h2 {
+      width: 300px;
+      height: 300px;
+      border: 1px solid black;
+      button {
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div id="h1">
+        <button id="btn1">Đổi màu nền</button>
+      </div>
+      <div id="h2">
+        <button id="btn2">Đổi màu nền</button>
+      </div>
+    </div>
+    <script>
+      let h1 = document.getElementById("h1");
+      let h2 = document.getElementById("h2");
+      document.getElementById("btn1").addEventListener("click", function () {
+        let a = Math.floor(Math.random() * 256);
+        let b = Math.floor(Math.random() * 256);
+        let c = Math.floor(Math.random() * 256);
+
+        h1.style.background = `rgb(${a},${b},${c})`;
+      });
+      document.getElementById("btn2").addEventListener("click", function () {
+        let a = Math.floor(Math.random() * 256);
+        let b = Math.floor(Math.random() * 256);
+        let c = Math.floor(Math.random() * 256);
+
+        h2.style.background = `rgb(${a},${b},${c})`;
+      });
+    </script>
+  </body>
+</html>

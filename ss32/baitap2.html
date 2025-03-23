@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bấm vào tôi</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        button {
+            margin-top: 150px;
+            font-size: 32px;
+            padding: 15px 30px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            background-color: #f0f0f0;
+            cursor: pointer;
+            transition: 1s;
+        }
+        button:hover {
+            background-color: #e42525;
+        }
+        #count {
+            font-size: 40px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn">Bấm vào tôi</button>
+    <p id="count">Số lần bấm: <span id="clickCount">0</span></p>
+
+    <script>
+        let count = 0;
+        document.getElementById("btn").addEventListener("click", function () {
+            count++;
+            document.getElementById("clickCount").innerText=count;
+        });
+
+    </script>
+</body>
+</html>
